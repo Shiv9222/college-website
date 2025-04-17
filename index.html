@@ -1,32 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Indian Institue of Guwahati</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-  <header>
-    <h1>Indian Institue of Guwahati</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Courses</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#members">Members</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section class="announcements">
-    <h2>Announcements</h2>
-    <p id="announcementText">New semester begins from 1st May!</p>
-    <button onclick="changeAnnouncement()">Click for Update</button>
-  </section>
+    <!-- Main Welcome Section -->
+    <section id="home" class="welcome-section">
+        <div class="container">
+            <h1>Welcome to the Coding Club</h1>
+            <p>Enhance your coding skills, collaborate on exciting projects, and join a community of passionate developers.</p>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 My College. All rights reserved.</p>
-  </footer>
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2>Upcoming Events</h2>
+            <div class="event-list">
+                <article class="event-item">
+                    <h3>Codeathon</h3>
+                    <p>Date: May 15, 2025</p>
+                    <p>Join us for a thrilling coding marathon!</p>
+                </article>
+                <article class="event-item">
+                    <h3>Web Development Workshop</h3>
+                    <p>Date: June 10, 2025</p>
+                    <p>Learn the basics of web development in this hands-on workshop.</p>
+                </article>
+            </div>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a> - Free coding courses.</li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs</a> - Comprehensive docs for JavaScript.</li>
+                <li><a href="https://www.codecademy.com/">Codecademy</a> - Interactive coding lessons.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members-section">
+        <div class="container">
+            <h2>Member Testimonials</h2>
+            <div class="testimonial-list">
+                <article class="testimonial-item">
+                    <p>"The Coding Club helped me improve my JavaScript skills and meet like-minded people!" - John Doe</p>
+                </article>
+                <article class="testimonial-item">
+                    <p>"Thanks to the club, I was able to complete my first hackathon project!" - Jane Smith</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2025 Coding Club | All Rights Reserved</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
